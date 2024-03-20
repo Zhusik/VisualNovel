@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7852f3a6318360340a7a6c2b2730e90f, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  labels:
+  - text: Ostatsa
+    nextScene: {fileID: 11400000, guid: c9def1c57eab5564c86f148e0d0e32dc, type: 2}
+  - text: Poslat
+    nextScene: {fileID: 11400000, guid: c9def1c57eab5564c86f148e0d0e32dc, type: 2}
+  - text: uiti
+    nextScene: {fileID: 11400000, guid: 49cdb70756a40fc45ab01cb00719d4bf, type: 2}
