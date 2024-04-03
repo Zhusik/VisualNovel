@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class SavingPosition : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject panelSettings;
 
-    // Update is called once per frame
-    void Update()
+    public void Settings()
     {
-        
+        if(panelSettings.activeSelf == false)
+        {
+            panelSettings.SetActive(true);
+        }
+        else if(panelSettings.activeSelf == true)
+        {
+            panelSettings.SetActive(false);
+        }
     }
 }
